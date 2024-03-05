@@ -1,0 +1,19 @@
+{
+    "name": "HunQRBox",
+    "short_name": "HunQRBox",
+    "theme_color": "#ffffff",
+    "background_color": "#3A1593",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "android-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable any"
+      }
+    ],
+    "splash_pages": null
+  }
