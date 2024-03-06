@@ -1,8 +1,8 @@
 {
     "name": "HunQRBox",
     "short_name": "HunQRBox",
-    "theme_color": "#ffffff",
-    "background_color": "#3A1593",
+    "theme_color": "#3A1593",
+    "background_color": "#ffffff",
     "display": "standalone",
     "orientation": "portrait",
     "scope": "/",
