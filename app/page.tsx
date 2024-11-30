@@ -8,7 +8,7 @@ import React, { ChangeEvent, useEffect, useState } from "react";
 export default function Home() {
 
   const { Canvas } = useQRCode(); 
-  const [input, setInput] = useState<string>("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  const [input, setInput] = useState<string>("https://youtu.be/X16G2hsVI9w?t=50");
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value;
@@ -19,7 +19,7 @@ export default function Home() {
     } else if (["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", undefined].indexOf(latest) === -1) {
       event.target.value = value.slice(0, value.length - 1);
     } else if (value.length === 0) {
-      setInput("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+      setInput("https://youtu.be/X16G2hsVI9w?t=50");
     } else {
       setInput(value);
     }
